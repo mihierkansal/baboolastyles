@@ -119,7 +119,9 @@ input[type="range"] {
   pointer-events: none;
 }
 
-input:not([type="range"]) {
+input:not([type="range"]):not([type="checkbox"]):not([type="radio"]):not(
+    [type="color"]
+  ) {
   padding: 0.5rem 0.5rem;
   border-radius: 999rem;
   border: 1px solid #888;
