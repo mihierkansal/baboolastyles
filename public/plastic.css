@@ -48,7 +48,9 @@ button {
   & span {
     transition: all 0.1s;
   }
-  &:active {
+  &:active,
+  &.active,
+  &.selected {
     box-shadow: 0 -2px 2px #0002, 0 3px 2px #fffc, inset 0 0 9px #0008;
     color: #4488aa;
     & span {
