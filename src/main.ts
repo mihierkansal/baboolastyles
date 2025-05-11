@@ -9,6 +9,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 
   <input />
   <input type="range" />
+  <input type="checkbox" />
   </div>
   
 `;
