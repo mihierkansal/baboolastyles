@@ -30,9 +30,11 @@ body {
 }
 
 button {
+  font-size: inherit;
   font-family: inherit;
   padding: 0.5rem 1rem;
   cursor: pointer;
+  color: black;
   text-shadow: 0 -1px 1px #0003, 0 1px 1px white;
   border-radius: 999rem;
   border: 1px solid grey;
