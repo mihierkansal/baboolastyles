@@ -9,13 +9,3 @@ npm i baboolastyles
 ```js
 import "baboolastyles/public/plastic.css";
 ```
-
-# Demo
-
-```sh
-npm i
-```
-
-```sh
-npm run dev
-```
