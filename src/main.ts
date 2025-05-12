@@ -3,15 +3,24 @@ import "./style.css";
 import { setupCounter } from "./counter.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div class="toolbar">
-  <button id="counter" type="button"></button>
-    <button  id="modalopen" type="button">open modal</button>
+<div style="display:flex">
+<div class="menu">
+<div>Item 1</div>
+<div class="selected">Item 2</div>
+<div>Item 3</div>
 
-  <input />
-  <input type="range" />
-  <input type="checkbox" />
+</div>
+<div style="flex:1">
+<div class="toolbar">
+<button id="counter" type="button"></button>
+<button  id="modalopen" type="button">open modal</button>
+
+<input />
+<input type="range" />
+<input type="checkbox" />
+</div>
+</div>
   </div>
-  
 `;
 
 document.querySelector("#modalopen")!.addEventListener("click", () => {
