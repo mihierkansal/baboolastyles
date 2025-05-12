@@ -12,8 +12,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  min-height: 4.5rem;
-  max-height: 4.5rem;
+  min-height: 4rem;
+  max-height: 4rem;
   padding: 0.75rem;
   gap: 1rem;
   background: linear-gradient(to bottom, #fff, #ccc);
