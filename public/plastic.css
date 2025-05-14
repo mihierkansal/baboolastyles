@@ -43,10 +43,12 @@ html:not(.nobaboolastyles),
     }
   }
 
-  button {
+  button,
+  select {
     font-size: 0.9rem;
     font-family: inherit;
     padding: 0.5rem 1rem;
+    outline: 0;
     cursor: pointer;
     color: black;
     text-shadow: 0 -1px 1px #0003, 0 1px 1px white;

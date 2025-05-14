@@ -12,6 +12,11 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 </div>
 <div style="flex:1">
 <div class="toolbar">
+<select  >
+
+<option>Option 1</option>
+<option>Option 2</option>
+</select>
 <button id="counter" type="button"></button>
 <button  id="modalopen" type="button">open modal</button>
 
