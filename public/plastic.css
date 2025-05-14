@@ -1,4 +1,5 @@
-html:not(.nobaboolastyles) {
+html:not(.nobaboolastyles),
+.baboolastyles {
   * {
     margin: 0;
     padding: 0;
