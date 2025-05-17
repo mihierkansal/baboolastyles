@@ -267,7 +267,7 @@ html:not(.nobaboolastyles),
       }
       &:active {
         color: #4488aa;
-        box-shadow: inset 0 0 8px #000a, 0 -3px 3px #0004, 0 3px 3px #fff2;
+        box-shadow: inset 0 0 8px #000a, 0 -3px 3px #0002, 0 3px 3px #fff2;
         font-size: 0.9rem;
       }
     }
